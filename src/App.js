@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Piece from "./components/Piece";
-import Controls from "./components/Controls";
+import Controls from "./components/Controls/Controls";
 
 export default function App() {
   const [pos, setPos] = React.useState([100, 50]);
